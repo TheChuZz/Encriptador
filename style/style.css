@@ -1,0 +1,112 @@
+body{
+    background-color: #D6E6F2;
+}
+
+.padre{
+    background-color: #D6E6F2;
+    width: auto;
+    height: 54em;
+    display: flex;
+    
+}
+
+picture{
+    flex-grow: 1;
+    background-color: #D6E6F2;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+
+.hijo{
+    flex-grow: 5;
+    background-color: #D6E6F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja{
+    background-color: #D6E6F2;
+    height: 70%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja input[type="text"]{
+    width: 75%;
+    height: 10%;
+    font-size: xx-large;
+    background-color: #ffffff00;
+    border: none;
+}
+
+.caja2{
+    background-color: #D6E6F2;
+    height: 30%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    color: black;
+}
+
+.controles button{
+    
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 2%;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.hijo2{
+    flex-grow: 4;
+}
+
+
+.caja3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.articulo{
+    width: 80%;
+    display: flex;
+    padding: 1%;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    border: solid black 1px;
+    border-radius: 20px;
+}
+
+.articulo input[type="text"]{
+    border: none;
+}
+
+@media screen and (max-width:480px) {
+    main .padre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }   
+
+    .articulo{
+        width: 100%;
+    }
+}
+
+
+
+
+
